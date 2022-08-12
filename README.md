@@ -8,7 +8,7 @@ Folder "Sim" and "MTR" represent the simulation and MTR experiments.
 Sim fold
      For each parameter setting, the simulation is repeated for 20 times.
      * sim_rpca_ma.py: generation of synthetic, the implentation of RPCA and moving average methods.
-     * plot_sim_fig.py: plots of estimation errors of RPCA and the moving average method.
+     * sim_fig.py: plots of estimation errors of RPCA and the moving average method.
     
 MTR fold
      * main.py: all the functions used in the experiment.
