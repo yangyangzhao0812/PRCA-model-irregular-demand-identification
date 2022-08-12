@@ -3,7 +3,7 @@ Code for paper "Irregular passenger demand identification under disruptions: a r
 
 Folder "Sim" and "MTR" represent the simulation and MTR experiments.
      * Syntheic data-see sim_rpca_ma.py.
-     * MTR data-is not available due to the privacy issues. A sample data with the same size is used to execute the code (see documents in MTR folder).
+     * MTR data-is not available due to the privacy issues. A sample data with the same size is used to execute the codes (see documents in MTR folder).
 
 Sim fold
      For each parameter setting, the simulation is repeated for 20 times.
