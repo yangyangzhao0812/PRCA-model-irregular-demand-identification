@@ -83,9 +83,12 @@ class StablePCP():
 
     Wei Xiao "onlineRPCA"
         https://github.com/wxiao0421/onlineRPCA/tree/master/rpca
+        
+    Shun CHi
+    https: // github.com / ShunChi100 / RobustPCA
     """
     def __init__(self, lamb=None, mu0=None, mu0_init=1000, mu_fixed=False, mu_min=None, sigma=100, eta=0.9,
-                 max_rank=None, tol=1e-6, max_iter=300, use_fbpca=False, fbpca_rank_ratio=0.2, verbsome=False):
+                 max_rank=None, tol=1e-6, max_iter=500, use_fbpca=False, fbpca_rank_ratio=0.2, verbsome=False):
         self.lamb = lamb
         self.mu0 = mu0
         self.mu0_init = mu0_init
